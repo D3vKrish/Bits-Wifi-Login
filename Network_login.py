@@ -34,7 +34,7 @@ from plyer import notification
 key = "GEmycEl1J8Jq7mVUy0ji7eyYS3hJLLN8s9L2g6fPbBw="
 
 #Site to log into
-site = 'https://campnet.bits-goa.ac.in:8090/httpclient.html'
+site = 'https://login-website.html'
 
 class Browser:
     browser = None
