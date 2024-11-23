@@ -142,7 +142,7 @@ This script is for goa campus.
 
 For hyderabad and pilani campuses, replace the following line with the one from your own campnet login
 ```bash
-site = 'https://campnet.bits-goa.ac.in:8090/httpclient.html'
+site = 'https://login-website.html'
 ```
 
 
