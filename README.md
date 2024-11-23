@@ -10,6 +10,7 @@
   7. [Subsequent Logins](#Subsequent-Logins)
   8. [How it works](#Working)
   9. [Troubleshooting](#Troubleshooting)
+  10. [Changes for other campuses](#Compatibility)
 ---
 ## Introduction
 This Python script automates the process of connecting to a Wi-Fi network and logging in to a captive portal, such as those used in campus networks. 
@@ -133,3 +134,12 @@ If Login.py is corrupted or missing, delete it and re-run the script to recreate
 ### Wi-Fi Connection Fails:
 
 Verify that the target network is available and that the system has the necessary permissions to connect.
+
+---
+## Compatibility
+
+This script is for goa campus.
+
+For hyderabad and pilani campuses, replace the following line with the one from your own campnet login
+
+
