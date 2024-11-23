@@ -33,6 +33,9 @@ from plyer import notification
 # Key for encrypting and decrypting the username and password
 key = "GEmycEl1J8Jq7mVUy0ji7eyYS3hJLLN8s9L2g6fPbBw="
 
+#Site to log into
+site = 'https://campnet.bits-goa.ac.in:8090/httpclient.html'
+
 class Browser:
     browser = None
 
@@ -115,7 +118,7 @@ def connect_to_network(retries=3):
 def login_with_retry(browser, username, password, retries=3):
     for attempt in range(retries):
         try:
-            browser.open('https://campnet.bits-goa.ac.in:8090/httpclient.html')
+            browser.open(site)
             time.sleep(3)
             browser.login_net(username, password)
             time.sleep(1)
