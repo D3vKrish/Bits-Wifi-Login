@@ -6,8 +6,8 @@
   3. [Requirements](#Requirements)
   4. [Installation](#Installation)
   5. [Usage](#Usage)
-  6. [First time setup](#Setup)
-  7. [Subsequent Logins](#SubsequentLogins)
+  6. [First time setup](#First-Time-Setup)
+  7. [Subsequent Logins](#Subsequent-Logins)
   8. [How it works](#Working)
   9. [Troubleshooting](#Troubleshooting)
 ---
@@ -61,7 +61,7 @@ Grant the necessary permissions for the script to execute.
 
 ---
 ## Usage
-### First-Time Setup
+### First-Time-Setup
 Run the script:
 
 ```bash
@@ -78,7 +78,7 @@ These credentials will be securely encrypted and stored in a Login.py file for f
 
 The script will then attempt to connect to a network and log in automatically.
 
-### Subsequent Logins
+### Subsequent-Logins
 Once the setup is complete:
 
 Simply run the script:
