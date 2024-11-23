@@ -141,5 +141,8 @@ Verify that the target network is available and that the system has the necessar
 This script is for goa campus.
 
 For hyderabad and pilani campuses, replace the following line with the one from your own campnet login
+```bash
+site = 'https://campnet.bits-goa.ac.in:8090/httpclient.html'
+```
 
 
