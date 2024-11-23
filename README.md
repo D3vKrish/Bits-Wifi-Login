@@ -63,6 +63,11 @@ Grant the necessary permissions for the script to execute.
 ---
 ## Usage
 ### First-Time-Setup
+Change this part of the code to the campnet website used to log into the internet server
+```bash
+site = 'https://login-website.html'
+```
+
 Run the script:
 
 ```bash
