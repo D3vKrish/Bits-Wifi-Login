@@ -94,6 +94,7 @@ python your_script.py
 The script will automatically:
 Connect to the Wi-Fi network.
 Log in to the captive portal using stored credentials.
+
 ---
 ## Working
 ### Credential Storage:
@@ -117,6 +118,8 @@ Both network connection and login processes have a retry mechanism with configur
 ### Notifications:
 
 Uponn successful logn, the script sends a desktop notification using plyer library
+
+> **Disclaimer**: It takes longer to connect when used immediately after laptop startup
 
 ---
 ## Troubleshooting
