@@ -46,7 +46,7 @@ Administrator privileges to execute certain network commands (on Windows)
 Clone the repository or download the script:
 
 ```bash
-git clone https://github.com/your-repo/automated-network-login.git
+git clone https://github.com/Bits-Wifi-Login/automated-network-login.git
 cd automated-network-login
 ```
 
