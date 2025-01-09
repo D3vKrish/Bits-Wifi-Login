@@ -22,7 +22,7 @@ The script:
 - Notifies the user of a successful login via desktop notifications.
 ---
 ## Features
-- Automates Wi-Fi Connection: Automatically connects to networks matching specific criteria ("BPGC" in this case)
+- Automates Wi-Fi Connection: Automatically connects to Bits network. 
 - Encrypted Credential Storage: Protects sensitive login information using encryption.
 - Retry Mechanism: Ensures reliable operation with multiple retry attempts for both network connection and login.
 - Browser Automation: Uses Selenium to handle browser interactions with the login portal.
