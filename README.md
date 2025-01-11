@@ -50,10 +50,8 @@ git clone https://github.com/Bits-Wifi-Login/automated-network-login.git
 cd automated-network-login
 ```
 
-Install the required Python libraries:
-```bash
-pip install selenium webdriver-manager plyer cryptography
-```
+The script will install all the required libraries by itself, just have pthon installed on your system
+
 Ensure you have Google Chrome installed. The script uses webdriver-manager to automatically download the appropriate version of ChromeDriver.
 
 Also make sure to store the main program in a separate folder as the chromedriver and login credentials are set to be stored in the same folder as the main code
